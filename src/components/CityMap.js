@@ -1,5 +1,5 @@
 import * as d3 from 'd3'
-import NTA from '../NTA.json'
+// import NTA from '../NTA.json'
 import {NeighborhoodMap} from './NeighborhoodMap'
 import {useState, useEffect} from 'react'
 import axios from 'axios'
@@ -13,7 +13,6 @@ export const CityMap = (props) => {
             try {
                 const {data} = await axios.get('https://data.cityofnewyork.us/resource/q2z5-ai38.json')
                 setMapInfo(data)
-                console.log(data)
             } catch (error) {
                 console.log('we got and error: ', error)
             }
