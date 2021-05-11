@@ -1,25 +1,24 @@
 import * as d3 from 'd3'
-import NTA from '../NTA.json'
+// import NTA from '../NTA.json'
 import {NeighborhoodMap} from './NeighborhoodMap'
 import {useState, useEffect} from 'react'
 import axios from 'axios'
 
 export const CityMap = (props) => {
 
-    // const [mapInfo, setMapInfo] = useState([])
+    const [mapInfo, setMapInfo] = useState([])
 
-    // useEffect(() => {
-    //     const getMap = async () => {
-    //         try {
-    //             const {data} = await axios.get('https://data.cityofnewyork.us/resource/q2z5-ai38.json')
-    //             setMapInfo(data)
-    //             console.log(data)
-    //         } catch (error) {
-    //             console.log('we got and error: ', error)
-    //         }
-    //     }
-    //     getMap()
-    // },[])
+    useEffect(() => {
+        const getMap = async () => {
+            try {
+                const {data} = await axios.get('https://data.cityofnewyork.us/resource/q2z5-ai38.json')
+                setMapInfo(data)
+            } catch (error) {
+                console.log('we got and error: ', error)
+            }
+        }
+        getMap()
+    },[])
 
     const height = document.documentElement.clientHeight
     const width = height * 1.32465263323
@@ -50,7 +49,7 @@ export const CityMap = (props) => {
                 height={height}
                 id="CityMapSVG"
             >
-                {NTA.features.map((neighborhood, idx) => (
+                {mapInfo.map((neighborhood, idx) => (
                     <NeighborhoodMap
                         line={line}
                         neighborhoodInfo={neighborhood}
