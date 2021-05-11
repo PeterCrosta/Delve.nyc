@@ -2,7 +2,7 @@
 
 export const NeighborhoodMap = props => {
     const {line} = props
-    const {type, coordinates} = props.neighborhoodInfo.geometry
+    const {type, coordinates} = props.neighborhoodInfo.the_geom
 
     if (type === 'MultiPolygon') return coordinates.map((el, idx) => {
         return (
