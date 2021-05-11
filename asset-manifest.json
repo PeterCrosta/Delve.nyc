@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Delve.nyc/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/Delve.nyc/static/js/main.e598a8b5.chunk.js",
-    "main.js.map": "/Delve.nyc/static/js/main.e598a8b5.chunk.js.map",
+    "main.css": "/Delve.nyc/static/css/main.ab45459d.chunk.css",
+    "main.js": "/Delve.nyc/static/js/main.aa06a84c.chunk.js",
+    "main.js.map": "/Delve.nyc/static/js/main.aa06a84c.chunk.js.map",
     "runtime-main.js": "/Delve.nyc/static/js/runtime-main.fbfbd171.js",
     "runtime-main.js.map": "/Delve.nyc/static/js/runtime-main.fbfbd171.js.map",
-    "static/js/2.d1d2d940.chunk.js": "/Delve.nyc/static/js/2.d1d2d940.chunk.js",
-    "static/js/2.d1d2d940.chunk.js.map": "/Delve.nyc/static/js/2.d1d2d940.chunk.js.map",
+    "static/js/2.948ae6c4.chunk.js": "/Delve.nyc/static/js/2.948ae6c4.chunk.js",
+    "static/js/2.948ae6c4.chunk.js.map": "/Delve.nyc/static/js/2.948ae6c4.chunk.js.map",
     "static/js/3.9a2e76b6.chunk.js": "/Delve.nyc/static/js/3.9a2e76b6.chunk.js",
     "static/js/3.9a2e76b6.chunk.js.map": "/Delve.nyc/static/js/3.9a2e76b6.chunk.js.map",
     "index.html": "/Delve.nyc/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/Delve.nyc/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.d1d2d940.chunk.js.LICENSE.txt": "/Delve.nyc/static/js/2.d1d2d940.chunk.js.LICENSE.txt"
+    "static/css/main.ab45459d.chunk.css.map": "/Delve.nyc/static/css/main.ab45459d.chunk.css.map",
+    "static/js/2.948ae6c4.chunk.js.LICENSE.txt": "/Delve.nyc/static/js/2.948ae6c4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fbfbd171.js",
-    "static/js/2.d1d2d940.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.e598a8b5.chunk.js"
+    "static/js/2.948ae6c4.chunk.js",
+    "static/css/main.ab45459d.chunk.css",
+    "static/js/main.aa06a84c.chunk.js"
   ]
 }
