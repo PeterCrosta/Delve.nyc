@@ -1,5 +1,6 @@
 import * as d3 from 'd3'
 import NTA from '../NTA.json'
+import {NeighborhoodMap} from './NeighborhoodMap'
 
 export const CityMap = (props) => {
 
@@ -24,22 +25,21 @@ export const CityMap = (props) => {
     .y(d => {
       return yScale(d[1])
     })
-    const testCoords = NTA.features[0].geometry.coordinates[0]
-    console.log(testCoords)
+
     return (
         <div id='CityMapWrapper'>
             <svg
                 width={width}
                 height={height}
                 id="CityMapSVG"
-                >
-                <g className="neighborhood">
-                    <path 
-                        d={line(testCoords)}
-                        fill='green'
-                        stroke="white"
-                    ></path>
-                </g>
+            >
+                {NTA.features.map((neighborhood, idx) => (
+                    <NeighborhoodMap
+                        line={line}
+                        neighborhoodInfo={neighborhood}
+                        key={idx}
+                    />
+                ))}    
             </svg>
         </div>
     )
