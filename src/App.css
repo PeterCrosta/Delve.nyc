@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.githubIcon {
+  width: 75px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

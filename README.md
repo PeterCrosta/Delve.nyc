@@ -1,3 +1,8 @@
+While the project is being rebuilt, it will be deployed here:
+
+https://petercrosta.github.io/Delve.nyc/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
