@@ -11,7 +11,7 @@ export const CityMap = (props) => {
     useEffect(() => {
         const getMap = async () => {
             try {
-                const {data} = await axios.get('https://data.cityofnewyork.us/resource/q2z5-ai38.json')
+                const {data} = await axios.get('http://localhost:3001/api')
                 setMapInfo(data)
             } catch (error) {
                 console.log('we got and error: ', error)
