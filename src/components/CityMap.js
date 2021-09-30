@@ -20,7 +20,7 @@ export const CityMap = (props) => {
         getMap()
     },[])
 
-    const height = document.documentElement.clientHeight
+    const height = document.documentElement.clientHeight * 0.95
     const width = height * 1.32465263323
 
     const xScale = d3
